@@ -12,9 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
-
-Auth::routes();
-
+Route::get('/gallerie','GallerieController@index')->name('gallerie');
+//Auth::routes();
+//
 Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/gallerie', 'GallerieController@index')->name('gallerie');

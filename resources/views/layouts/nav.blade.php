@@ -19,7 +19,7 @@
                     <ul class="nav navbar-nav menu__list">
                         <li class="menu__item menu__item--current"><a href="{{ url('/') }}" class="menu__link">Acceuil</a></li>
                         <li class="menu__item"><a href="music.html" class="menu__link">CCA</a></li>
-                        <li class="menu__item"><a href="gallery.html" class="menu__link">Gallerie</a></li>
+                        <li class="menu__item"><a href="gallerie" class="menu__link">Gallerie</a></li>
                         <li class="dropdown menu__item">
                             <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Musique<b class="caret"></b></a>
                             <ul class="dropdown-menu agile_short_dropdown">
