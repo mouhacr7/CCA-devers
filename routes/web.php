@@ -11,11 +11,25 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-Route::get('/gallerie','GallerieController@index')->name('gallerie');
+// Route::get('/', function () {
+//     return view('home');
+// });
 //Auth::routes();
-//
-Route::get('/home', 'HomeController@index')->name('home');
-//Route::get('/gallerie', 'GallerieController@index')->name('gallerie');
+
+//Route HomeController
+Route::get('/', 'HomeController@index')->name('acceuil');
+
+//Route AboutController
+Route::get('/about', 'AboutController@index')->name('a propos');
+
+//Route GallerieController
+Route::get('/gallerie','GallerieController@index')->name('gallerie');
+
+//Route MusicController
+Route::get('/music', 'MusicController@index')->name('music');
+
+//Route DanseController
+Route::get('/danse', 'DanseController@index')->name('danse');
+
+//Route CcaController
+Route::get('/cca', 'CcaController@index')->name('cca');

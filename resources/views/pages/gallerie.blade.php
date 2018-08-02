@@ -224,4 +224,4 @@
         </div>
     </div>
     <!-- //bootstrap-pop-up -->
-@endsection()
+@endsection
