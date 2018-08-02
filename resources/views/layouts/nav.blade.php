@@ -35,6 +35,7 @@
                             </ul>
                         </li>
                         <li class="menu__item"><a href="mail.html" class="menu__link">A propos</a></li>
+                        <li class="menu__item"><a href="inscription" class="menu__link">Inscription</a></li>
                     </ul>
                 </nav>
             </div>

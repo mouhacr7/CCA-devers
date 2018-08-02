@@ -19,3 +19,7 @@ Route::get('/gallerie','GallerieController@index')->name('gallerie');
 //
 Route::get('/home', 'HomeController@index')->name('home');
 //Route::get('/gallerie', 'GallerieController@index')->name('gallerie');
+
+Route::get('/inscription', function () {
+    return view('inscription');
+});
