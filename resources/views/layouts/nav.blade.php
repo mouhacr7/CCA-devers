@@ -18,24 +18,53 @@
                 <nav class="menu menu--iris">
                     <ul class="nav navbar-nav menu__list">
                         <li class="menu__item menu__item--current"><a href="{{ url('/') }}" class="menu__link">Acceuil</a></li>
-                        <li class="menu__item"><a href="music.html" class="menu__link">CCA</a></li>
+                        <li class="dropdown menu__item">
+                            <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">CCA<b class="caret"></b></a>
+                            <ul class="dropdown-menu agile_short_dropdown">
+                                <li><a href="cca">l'école</a></li>
+                                <li><a href="professeurs">Professeurs</a></li>
+                                <li><a href="partenaires">Partenaires</a></li>
+                                <li><a href="evenements">événements</a></li>
+                            </ul>
+                        </li>
                         <li class="menu__item"><a href="gallerie" class="menu__link">Gallerie</a></li>
                         <li class="dropdown menu__item">
                             <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Musique<b class="caret"></b></a>
                             <ul class="dropdown-menu agile_short_dropdown">
-                                <li><a href="icons.html">Web Icons</a></li>
-                                <li><a href="typography.html">Typography</a></li>
+                                <li><a href="icons">Eveil musical 4-5 ans</a></li>
+                                <li><a href="typography">Découverte et initation 6-7 ans</a></li>
+                                <li><a href="typography">Parcours dés 8ans</a></li>
+                                <li><a href="typography">Instruments</a></li>
+                                <li><a href="typography">Pratique ensemble</a></li>
                             </ul>
                         </li>
                         <li class="dropdown menu__item">
                             <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Danse<b class="caret"></b></a>
                             <ul class="dropdown-menu agile_short_dropdown">
-                                <li><a href="icons.html">Web Icons</a></li>
-                                <li><a href="typography.html">Typography</a></li>
+                                <li><a href="icons">Danse classique</a></li>
+                                <li><a href="typography">Danse conptemporaine</a></li>
+                                <li><a href="typography">Danse jazz</a></li>
+                                <li><a href="typography">Danse orientale</a></li>
+                                <li><a href="typography">Danse hip hop</a></li>
+                                <li><a href="typography">Barre au sol</a></li>
                             </ul>
                         </li>
+                        <li class="dropdown menu__item">
+                            <a href="about" class="dropdown-toggle menu__link" data-toggle="dropdown">A propos<b class="caret"></b></a>
+                            <ul class="dropdown-menu agile_short_dropdown">
+                                <li><a href="icons">Informations pratiques</a></li>
+                                <li><a href="typography">Inscriptions</a></li>
+                                <li><a href="typography">Saison 2018-2019</a></li>
+                                <li><a href="typography">Calendrier annuel</a></li>
+                                <li><a href="typography">Location d'instruments</a></li>
+                                <li><a href="typography">Actualités</a></li>
+                            </ul>
+                        </li>
+<<<<<<< HEAD
                         <li class="menu__item"><a href="mail.html" class="menu__link">A propos</a></li>
                         <li class="menu__item"><a href="inscription" class="menu__link">Inscription</a></li>
+=======
+>>>>>>> master
                     </ul>
                 </nav>
             </div>
