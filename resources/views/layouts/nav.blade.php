@@ -53,18 +53,13 @@
                             <a href="about" class="dropdown-toggle menu__link" data-toggle="dropdown">A propos<b class="caret"></b></a>
                             <ul class="dropdown-menu agile_short_dropdown">
                                 <li><a href="icons">Informations pratiques</a></li>
-                                <li><a href="typography">Inscriptions</a></li>
+                                <li><a href="inscription">Inscriptions</a></li>
                                 <li><a href="typography">Saison 2018-2019</a></li>
                                 <li><a href="typography">Calendrier annuel</a></li>
                                 <li><a href="typography">Location d'instruments</a></li>
                                 <li><a href="typography">Actualités</a></li>
                             </ul>
                         </li>
-<<<<<<< HEAD
-                        <li class="menu__item"><a href="mail.html" class="menu__link">A propos</a></li>
-                        <li class="menu__item"><a href="inscription" class="menu__link">Inscription</a></li>
-=======
->>>>>>> master
                     </ul>
                 </nav>
             </div>

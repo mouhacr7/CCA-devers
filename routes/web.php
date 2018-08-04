@@ -15,13 +15,11 @@
 //     return view('home');
 // });
 //Auth::routes();
-<<<<<<< HEAD
 //
 Route::get('/home', 'HomeController@index')->name('home');
 //Route::get('/gallerie', 'GallerieController@index')->name('gallerie');
 
 Route::get('/inscription','InscriptionController@index')->name('inscription');
-=======
 
 //Route HomeController
 Route::get('/', 'HomeController@index')->name('acceuil');
@@ -40,4 +38,3 @@ Route::get('/danse', 'DanseController@index')->name('danse');
 
 //Route CcaController
 Route::get('/cca', 'CcaController@index')->name('cca');
->>>>>>> master
