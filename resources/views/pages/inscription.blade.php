@@ -33,10 +33,26 @@
 		    </div>
 
 
-		    <div class="Form-group col-md-4" > 
-            {{Form::label('inputEmail4', 'Choisir une danse')}}
-                {{Form::select('2', ['L' => 'Large', 'S' => 'Small'],' ')}}
-		    </div>
+		    <div class="input-group col-md-3" style="display: inline-block;">
+				<div class="input-group-prepend">
+					<button class="btn btn-outline-secondary" type="button">Choisir une Musique</button>
+				</div>
+				<select class="custom-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+						@foreach($musiques as $musique)
+								<option selected value="{{$musique->id}}">{{$musique->nom_musique}}</option>
+						@endforeach
+				</select>
+			</div>
+
+			<div class="input-group col-md-3">
+				<div class="input-group-prepend">
+					<button class="btn btn-outline-secondary" type="button">Choisir une danse</button>
+				</div>
+				<select class="custom-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+					
+				
+				</select>
+			</div>
 
             <br><div class="form-group">
                 {{Form::label('message', 'Message')}}
