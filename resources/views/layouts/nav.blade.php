@@ -59,7 +59,7 @@
                                 <li><a href="location_instrus">Location d'instruments</a></li>
                                 <li><a href="actus">Actualités</a></li>
                             </ul>
-                        </li>
+                        </li>                         
                     </ul>
                 </nav>
             </div>
