@@ -1,5 +1,4 @@
-@extends('layouts.master')
-
+@extends('layouts.second_master')
 @section('content')
 <h1>Contact</h1>
 
@@ -23,8 +22,4 @@
         {{Form::submit('Envoyer',['class'=>'btn btn-primary'])}}
     </div>
 {!! Form::close() !!}
-@endsection
-
-@section('sidebar')
-<p>this is sidebar contact</p>
 @endsection

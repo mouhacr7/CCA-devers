@@ -1,31 +1,9 @@
 <!-- footer -->
 <div class="footer">
     <div class="container">
-        <div class="col-md-4 agileinfo_footer_grid">
-            <h3>About Us</h3>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <div class="agileits_footer_grid_gallery">
-                <div class="agileits_footer_grid_gallery1">
-                    <a href="#" data-toggle="modal" data-target="#myModal"><img src="layouts/images/2.jpg" alt=" " class="img-responsive" /></a>
-                </div>
-                <div class="agileits_footer_grid_gallery1">
-                    <a href="#" data-toggle="modal" data-target="#myModal"><img src="layouts/images/3.jpg" alt=" " class="img-responsive" /></a>
-                </div>
-                <div class="agileits_footer_grid_gallery1">
-                    <a href="#" data-toggle="modal" data-target="#myModal"><img src="layouts/images/4.jpg" alt=" " class="img-responsive" /></a>
-                </div>
-                <div class="agileits_footer_grid_gallery1">
-                    <a href="#" data-toggle="modal" data-target="#myModal"><img src="layouts/images/7.jpg" alt=" " class="img-responsive" /></a>
-                </div>
-                <div class="agileits_footer_grid_gallery1">
-                    <a href="#" data-toggle="modal" data-target="#myModal"><img src="layouts/images/8.jpg" alt=" " class="img-responsive" /></a>
-                </div>
-                <div class="agileits_footer_grid_gallery1">
-                    <a href="#" data-toggle="modal" data-target="#myModal"><img src="layouts/images/9.jpg" alt=" " class="img-responsive" /></a>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>
+    <div class="col-md-4 w3_agile_map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30339.486342919685!2d-16.008283665244655!3d18.097655727715487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe964d5ada31bc6f%3A0xf358adf9f0499df1!2sMauritanie+Perspectives!5e0!3m2!1sfr!2s!4v1533425201936" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
         <div class="col-md-4 agileinfo_footer_grid">
             <h3>Twitter Posts</h3>
             <ul class="w3agile_footer_grid_list">
@@ -47,7 +25,102 @@
     </div>
 </div>
 <!-- bootstrap-pop-up -->
-<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+<div class="modal video-modal fade" id="MyGuitar" tabindex="-1" role="dialog" aria-labelledby="MyGuitar">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                Guitare
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <section>
+                <div class="modal-body">
+                    <div class="col-md-6 w3_modal_body_left">
+                        <img src="layouts/images/guitare.jpg" alt=" " class="img-responsive" />
+                    </div>
+                    <div class="col-md-6 w3_modal_body_right">
+                        <h4>Suspendisse et sapien ac diam suscipit posuere</h4>
+                        <p>Ut enim ad minima veniam, quis nostrum
+                            exercitationem ullam corporis suscipit laboriosam,
+                            nisi ut aliquid ex ea commodi consequatur? Quis autem
+                            vel eum iure reprehenderit qui in ea voluptate velit
+                            esse quam nihil molestiae consequatur.
+                            <i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                esse quam nihil molestiae consequatur.</i>
+                           </p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<!-- //bootstrap-pop-up -->
+<!-- bootstrap-pop-up -->
+<div class="modal video-modal fade" id="MyBasse" tabindex="-1" role="dialog" aria-labelledby="MyBasse">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                Guitare basse
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <section>
+                <div class="modal-body">
+                    <div class="col-md-6 w3_modal_body_left">
+                        <img src="layouts/images/guitare.jpg" alt=" " class="img-responsive" />
+                    </div>
+                    <div class="col-md-6 w3_modal_body_right">
+                        <h4>Suspendisse et sapien ac diam suscipit posuere</h4>
+                        <p>Ut enim ad minima veniam, quis nostrum
+                            exercitationem ullam corporis suscipit laboriosam,
+                            nisi ut aliquid ex ea commodi consequatur? Quis autem
+                            vel eum iure reprehenderit qui in ea voluptate velit
+                            esse quam nihil molestiae consequatur.
+                            <i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                esse quam nihil molestiae consequatur.</i>
+                           </p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<!-- //bootstrap-pop-up -->
+<!-- bootstrap-pop-up -->
+<div class="modal video-modal fade" id="MyGuitar" tabindex="-1" role="dialog" aria-labelledby="MyGuitar">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                Symphony
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <section>
+                <div class="modal-body">
+                    <div class="col-md-6 w3_modal_body_left">
+                        <img src="layouts/images/15.jpg" alt=" " class="img-responsive" />
+                    </div>
+                    <div class="col-md-6 w3_modal_body_right">
+                        <h4>Suspendisse et sapien ac diam suscipit posuere</h4>
+                        <p>Ut enim ad minima veniam, quis nostrum
+                            exercitationem ullam corporis suscipit laboriosam,
+                            nisi ut aliquid ex ea commodi consequatur? Quis autem
+                            vel eum iure reprehenderit qui in ea voluptate velit
+                            esse quam nihil molestiae consequatur.
+                            <i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                esse quam nihil molestiae consequatur.</i>
+                            Fusce in ex eget ligula tempor placerat. Aliquam laoreet mi id felis commodo
+                            interdum. Integer sollicitudin risus sed risus rutrum
+                            elementum ac ac purus.</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<!-- //bootstrap-pop-up -->
+<!-- bootstrap-pop-up -->
+<div class="modal video-modal fade" id="MyGuitar" tabindex="-1" role="dialog" aria-labelledby="MyGuitar">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -80,9 +153,24 @@
 </div>
 <!-- //bootstrap-pop-up -->
 {{Html::script('layouts/js/jquery-2.1.4.min.js')}}
+{{Html::script('layouts/js/jquery.cntl.js')}}
 {{--<script type="text/javascript" src="js/jquery.flexisel.js"></script>--}}
 {{Html::script('layouts/js/jquery.flexisel.js')}}
 <!-- //flexisel -->
+<!-- timeline -->
+
+	<script type="text/javascript">
+		$(document).ready(function(e){
+			$('.cntl').cntl({
+				revealbefore: 300,
+				anim_class: 'cntl-animate',
+				onreveal: function(e){
+					console.log(e);
+				}
+			});
+		});
+	</script>
+<!-- //timeline -->
 <!-- start-smooth-scrolling -->
 {{--<script type="text/javascript" src="js/move-top.js"></script>--}}
 {{--<script type="text/javascript" src="js/easing.js"></script>--}}
