@@ -1,5 +1,6 @@
 <?php
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,7 +20,13 @@
 Route::get('/home', 'HomeController@index')->name('home');
 //Route::get('/gallerie', 'GallerieController@index')->name('gallerie');
 
-Route::get('/inscription','InscriptionController@index')->name('inscription');
+Route::get('/inscription',function(){
+    
+    $musiques=App\Musique::all();
+    $danses=App\Danse::all();
+
+    return view('pages.inscription')->with('musiques',$musiques);
+});
 
 //Route HomeController
 Route::get('/', 'HomeController@index')->name('acceuil');
