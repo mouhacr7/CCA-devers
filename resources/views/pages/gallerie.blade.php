@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.second_master')
 @section('content')
     <!-- breadcrumbs -->
     <div class="breadcrumbs">
