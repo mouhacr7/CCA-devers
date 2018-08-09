@@ -1,5 +1,6 @@
 <?php
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,6 +16,20 @@
 //     return view('home');
 // });
 //Auth::routes();
+<<<<<<< HEAD
+//
+Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/gallerie', 'GallerieController@index')->name('gallerie');
+
+Route::get('/inscription',function(){
+    
+    $musiques=App\Musique::all();
+    $danses=App\Danse::all();
+
+    return view('pages.inscription')->with('musiques',$musiques);
+});
+=======
+>>>>>>> master
 
 //Route HomeController
 Route::get('/', 'HomeController@index')->name('acceuil');
@@ -48,6 +63,9 @@ Route::get('/barre_au_sol', 'DanseController@barre_au_sol')->name('barre_au_sol'
 
 //Route CcaController
 Route::get('/cca', 'CcaController@index')->name('cca');
+<<<<<<< HEAD
+=======
 Route::get('/professeurs', 'CcaController@professeurs')->name('professeurs');
 Route::get('/partenaires', 'CcaController@partenaires')->name('partenaires');
 Route::get('/evenements', 'CcaController@evenements')->name('evenements');
+>>>>>>> master
