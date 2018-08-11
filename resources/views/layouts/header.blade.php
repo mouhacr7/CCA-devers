@@ -13,10 +13,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 {{--<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />--}}
 {{--<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />--}}
 {{Html::style('layouts/css/bootstrap.css')}}
+{{Html::style('layouts/engine1/style.css')}}
 {{Html::style('layouts/css/style.css')}}
 <!-- js -->
 {{--<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>--}}
 {{Html::script('layouts/js/jquery-2.1.4.min.js')}}
+{{Html::script('layouts/engine1/jquery.js')}}
+
 <!-- //js -->
     <!-- font-awesome-icons -->
 {{--<link href="css/font-awesome.css" rel="stylesheet">--}}

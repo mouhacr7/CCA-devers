@@ -42,6 +42,13 @@ input[type="submit"],input[type="reset"],a{
 	-ms-background-size:cover;
 	min-height:770px;
 }
+.banner_container {
+    width: 100%;
+    background:#fff;
+    height:150px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
 .banner1{
 	background:url(../images/banner.jpg) no-repeat 0px -140px;
 	background-size:cover;
@@ -52,11 +59,13 @@ input[type="submit"],input[type="reset"],a{
 	min-height:300px;
 }
 /*-- nav --*/
+
 .navbar-default {
     background: none;
     border: none;
 }
 .navbar {
+
     margin-bottom: 0;
 }
 .navbar-collapse {
@@ -71,7 +80,7 @@ input[type="submit"],input[type="reset"],a{
 }
 .navbar-default .navbar-nav > li > a {
     font-weight: 500;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
 .navbar-nav > li > a {
     margin: 0;
@@ -86,8 +95,9 @@ input[type="submit"],input[type="reset"],a{
 	outline:none;
 }
 nav.navbar.navbar-default {
+	
     background: none;
-    padding: 2em 0 0 0;
+    /* padding: 2em 0 0 0; */
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     color:#fff;
@@ -157,7 +167,7 @@ nav.navbar.navbar-default {
 
 .menu__item {
 	display: block;
-	margin: 1em 0;
+	/* margin: 1em 0; */
 }
 
 .menu__link {
@@ -176,7 +186,7 @@ nav.navbar.navbar-default {
 }
 /* Iris */
 .menu--iris .menu__item {
-	margin:0 0.5em;
+	/* margin:0 0.5em; */
 }
 
 .menu--iris .menu__link {
@@ -2099,7 +2109,7 @@ h2.typoh2{
 /*-- contact --*/
 .w3_agile_map iframe{
 	width:100%;
-	min-height:500px;
+	min-height:350px;
 }
 .agile_mail_grid_left input[type="text"],.agile_mail_grid_left input[type="email"],.agile_mail_grid_left textarea{
 	outline: none;
@@ -2187,6 +2197,16 @@ ul.agileinfo_phone_mail{
 	.w3layouts_banner_bottom_grid {
 		padding: 2.7em;
 	}
+}
+@media(max-width:768px){
+	.banner_adv{
+		display:inline-flex;
+		margin-right:0px;
+		margin-left:0px;
+	}
+	.banner_adv {
+		width:100%;
+	} 
 }
 @media (max-width:1600px){
 	.agile_team_left {
@@ -2435,7 +2455,7 @@ ul.agileinfo_phone_mail{
 		font-size: .9em;
 	}
 	.menu--iris .menu__item {
-		margin: 0 0.2em;
+		/* margin: 0 0.2em; */
 	}
 	.navbar-nav > li > a {
 		padding: 0 1em;
@@ -3277,7 +3297,7 @@ ul.agileinfo_phone_mail{
 		top: 60%;
 	}
 	p, ul li, ol li,.wthree_mail_grid_right ul.agileinfo_phone_mail li,.music-bottom input[type="text"], .music-bottom input[type="submit"], .music-bottom input[type="email"] {
-		font-size: 13px;
+		font-size: 15px;
 	}
 	.agile_features_right p a {
 		letter-spacing: 1px;

@@ -176,6 +176,8 @@
 {{--<script type="text/javascript" src="js/easing.js"></script>--}}
 {{Html::script('layouts/js/move-top.js')}}
 {{Html::script('layouts/js/easing.js')}}
+{{Html::script('layouts/engine1/wowslider.js')}}
+{{Html::script('layouts/engine1/script.js')}}
 <!-- flexisel -->
 <script type="text/javascript">
     $(window).load(function() {

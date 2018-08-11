@@ -122,7 +122,7 @@
     </div>
     <!-- //banner-bottom -->
     <!-- about -->
-    <div class="about">
+    <!-- <div class="about">
         <div class="container">
             <div class="w3_agile_about_grids">
                 <div class="col-md-6 w3_agile_about_grid_left">
@@ -140,7 +140,7 @@
                 <div class="clearfix"> </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- //about -->
     <!-- features -->
     <div class="features">
