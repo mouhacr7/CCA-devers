@@ -21,7 +21,7 @@ class TableUserCreate extends Migration
             $table->integer('mobile');
             $table->integer('id_musique');
             $table->integer('id_danse');
-            $table->string('messaage');
+            $table->string('message');
             $table->timestamps();
 
             $table->foreign('id_musique')->references('id')->on('musique');

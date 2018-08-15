@@ -16,20 +16,6 @@
 //     return view('home');
 // });
 //Auth::routes();
-<<<<<<< HEAD
-//
-Route::get('/home', 'HomeController@index')->name('home');
-//Route::get('/gallerie', 'GallerieController@index')->name('gallerie');
-
-Route::get('/inscription',function(){
-    
-    $musiques=App\Musique::all();
-    $danses=App\Danse::all();
-
-    return view('pages.inscription')->with('musiques',$musiques);
-});
-=======
->>>>>>> master
 
 //Route HomeController
 Route::get('/', 'HomeController@index')->name('acceuil');
@@ -37,7 +23,11 @@ Route::get('/', 'HomeController@index')->name('acceuil');
 //Route AboutController
 Route::get('/about', 'AboutController@index')->name('a propos');
 Route::get('/infos_pratiques', 'AboutController@infos_pratiques')->name('infos_pratiques');
-Route::get('/inscriptions', 'AboutController@inscriptions')->name('inscriptions');
+Route::get('/inscription', 'InscriptionController@index')->name('inscription');
+Route::get('/sendingMail', 'InscriptionController@sendingMail');
+
+//requete pour l'enreggistrement des utilisateurs
+Route::post('/inscription/submit','InscriptionController@submit');
 Route::get('/saisons', 'AboutController@saisons')->name('saisons');
 Route::get('/calendrier_annuel', 'AboutController@calendrier_annuel')->name('calendrier_annuel');
 Route::get('/location_instrus', 'AboutController@location_instrus')->name('location_instrus');
@@ -63,9 +53,6 @@ Route::get('/barre_au_sol', 'DanseController@barre_au_sol')->name('barre_au_sol'
 
 //Route CcaController
 Route::get('/cca', 'CcaController@index')->name('cca');
-<<<<<<< HEAD
-=======
 Route::get('/professeurs', 'CcaController@professeurs')->name('professeurs');
 Route::get('/partenaires', 'CcaController@partenaires')->name('partenaires');
 Route::get('/evenements', 'CcaController@evenements')->name('evenements');
->>>>>>> master

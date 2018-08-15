@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Musique;
+use App\Danse;
 
 class AboutController extends Controller
 {
@@ -15,10 +17,12 @@ class AboutController extends Controller
     {
         return view('pages.infos_pratiques');
     }
-    public function inscriptions()
-    {
-        return view('pages.inscriptions');
-    }
+    public function inscription()
+    /*{
+        $musique=Musique::get();
+        $danse=Danse::get();
+        return view('pages.inscription',compact('musique','danse'));
+    }*/
     public function saisons()
     {
         return view('pages.saisons');

@@ -4,7 +4,7 @@
 
 
 <h1>Contact</h1>
-		{!! Form::open(['url'=>'contact/submit']) !!}
+		{!! Form::open(['url'=>'inscription/submit']) !!}
 		{{Form::token()}}
 		<div class="from-row">
 
@@ -29,7 +29,7 @@
 
 		    <div class="Form-group col-md-4" style="display: inline-block;"> 
 				{{Form::label('inputEmail4', 'Numero Mobile')}}
-		        {{Form::text('numero', '',['class'=>'form-control','id'=>'inputEmail4','placeholder'=>'entrer votre numero'])}}
+		        {{Form::text('mobile', '',['class'=>'form-control','id'=>'inputEmail4','placeholder'=>'entrer votre numero'])}}
 		    </div>
 
 
@@ -38,8 +38,8 @@
 					<button class="btn btn-outline-secondary" type="button">Choisir une Musique</button>
 				</div>
 				<select class="custom-select" id="inputGroupSelect03" aria-label="Example select with button addon">
-						@foreach($musiques as $musique)
-								<option selected value="{{$musique->id}}">{{$musique->nom_musique}}</option>
+						@foreach($musique as $musiques)
+								<option selected value="{{ $musiques->id }}">{{ $musiques->nom_musique }}</option>
 						@endforeach
 				</select>
 			</div>
@@ -49,8 +49,11 @@
 					<button class="btn btn-outline-secondary" type="button">Choisir une danse</button>
 				</div>
 				<select class="custom-select" id="inputGroupSelect03" aria-label="Example select with button addon">
-					
-				
+
+						@foreach($danse as $danses)
+								<option selected value="{{ $danses->id }}">{{ $danses->nom_danse }}</option>
+						@endforeach
+
 				</select>
 			</div>
 

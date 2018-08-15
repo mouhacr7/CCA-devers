@@ -79,7 +79,7 @@
                         <li class="dropdown menu__item">
                             <a href="about" class="dropdown-toggle menu__link" data-toggle="dropdown">A propos<b class="caret"></b></a>
                             <ul class="dropdown-menu agile_short_dropdown">
-<<<<<<< HEAD
+
                                 <li><a href="icons">Informations pratiques</a></li>
                                 <li><a href="inscription">Inscriptions</a></li>
                                 <li><a href="typography">Saison 2018-2019</a></li>
@@ -88,7 +88,7 @@
                                 <li><a href="typography">Actualités</a></li>
                             </ul>
                         </li>
-=======
+
                                 <li><a href="infos_pratiques">Informations pratiques</a></li>
                                 <li><a href="inscriptions">Inscriptions</a></li>
                                 <li><a href="saisons">Saison 2018-2019</a></li>
@@ -96,12 +96,11 @@
                                 <li><a href="location_instrus">Location d'instruments</a></li>
                                 <li><a href="actus">Actualités</a></li>
                             </ul>
-<<<<<<< HEAD
+
                         </li>                         
->>>>>>> master
-=======
+
                         </li>
->>>>>>> master
+
                     </ul>
                 </nav>
             </div>
